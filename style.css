@@ -2,14 +2,13 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image:url(../img/flower\ pic.jpg);
+    background-image:url(../img/Flower1.jpeg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
 }
 .title{
     margin-top: 100px;
-    color:black;
     
 } 
 .title h1{
@@ -22,10 +21,10 @@ body{
 .form-control{
     width: 600px;
     background: rgb(248, 246, 248);
-    border-radius: 7px;
-    outline:gray;
-    border-bottom: 1px solid gray;
-    color: gray;
+    border-radius: 5px;
+    outline:black;
+    border-bottom: 1px solid black;
+    color: black;
     font-size: 18px;
     margin-bottom: 16px;
 } 
@@ -42,6 +41,6 @@ form .submit{
     transition:0.4 ease;
 } 
 form .submit:hover{
-    background-color:rgb(8, 6, 75);
+    background-color: teal;
     cursor:pointer;
 }
